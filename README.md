@@ -1,29 +1,34 @@
-# 🏛️ The Antiquarian’s Lab: A Python Journey
-### Art. Science. Provenance.
+# Learning Python in Public
 
-> "The ability to 'see' the extraordinary in the mundane—and the technical precision to prove it."
+I'm relearning to code. This repository documents my progress as I build the technical skills for **Clairevoyant Labs**—the innovation pillar of my business, Saint Clairevoyant.
 
-Welcome to the digital workshop of **Saint Clairevoyant**. This repository serves as a "Learning in Public" record of my transition from a Web 1.0 "solo flyer" to a modern developer of archival infrastructure. 
+## Why Python?
 
-## 🕯️ The Vision: Ancient Utility
-I am building the technical foundation for **Clairevoyant Labs**. My goal is to marry the "Eye" of an antiquarian with the rigor of algorithmic thinking. Whether it is a 1826 Chiswick Press Shakespeare set or a lost archive of board meeting notes, I am learning to quantify the "Special" through code.
+I taught myself HTML, CSS, and FTP at 11 years old during the Web 1.0 era. I've been comfortable in the Linux command line since learning it during the pandemic with Zed Shaw's Command Line Crash Course. Now I'm circling back to formal programming to build tools that honor the work I do: rare book dealing, archival research, and provenance documentation.
 
-## 📖 The Curriculum: Active Fire & Structured Calm
-I operate at 100+ WPM and prefer the raw command line (Linux/Penguin) over polished GUIs. To master Python, I am balancing two distinct learning styles:
+## My Approach
 
-* **The Hard Way (Zed Shaw):** Reconnecting with my roots. This is about discipline, muscle memory, and the "grit" of the command line—the same way I taught myself FTP and CSS at 11 years old.
-* **The Structured Logic (OpenStax):** The academic "decompression." This provides the theoretical framework to organize the fire of the exercises into a professional-grade methodology.
+I'm using two resources with different teaching philosophies:
 
-## 🏹 The North Star: The Archivist's Tribute
-The ultimate goal of this technical evolution is to build a digital monument. I am currently working toward a project that honors the legacy of a UW Archivist whose estate I’ve been entrusted with. This will be a "proof of work" for his life’s appreciation—built with the very tools I am honing here.
+**Learn Python 3 the Hard Way (Zed Shaw)**  
+For when I'm motivated and want active momentum. His drill-sergeant style reminds me of how I learned originally—just figuring it out by doing it. No hand-holding.
 
-## 📊 The Logbook
-| Milestone | Status | Insight |
-| :--- | :--- | :--- |
-| **Linux Environment Setup** | ✅ Complete | Navigated SSL certificate errors on ChromeOS; the "Hard Way" begins. |
-| **Python Fundamentals** | 🟡 In Progress | Mastering `print()`, `sep`, and `end` for future metadata formatting. |
-| **The Tribute Project** | ⚪ Planned | Permission/Design phase with extended family. |
+**Introduction to Python Programming (OpenStax)**  
+For when I need structured thinking and want to decompress. The academic framework helps me organize what I'm learning into something professional-grade.
+
+## Current Goal
+
+My primary project is building a digital tribute to a UW Archivist whose estate I acquired. He had no children, and his collection shows someone who deeply appreciated life and preservation. I want to create something that honors his legacy—with his extended family's permission—once I know enough to do it justice.
+
+## Progress Log
+
+| Milestone | Status | Notes |
+|-----------|--------|-------|
+| Linux environment setup | ✅ | ChromeOS + Penguin container configured |
+| Git workflow | ✅ | Credential helper configured, pushing via CLI |
+| Python fundamentals | 🟡 | Working through `print()`, variables, basic I/O |
+| Archivist tribute project | ⚪ | Planning phase |
 
 ---
-**"The past is the data; the future is the algorithm."**
-*Documentation maintained by Saint Clairevoyant.*
+
+This is accountability work. I've been a solo learner since childhood, and making this public keeps me honest about follow-through.
