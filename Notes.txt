@@ -1,0 +1,33 @@
+LEFT OFF ON: pg 42/328 (using top page navigation part)
+
+First Parts
+- rev'd how to create & then change into a directory; make new file (this one), etc.
+
+
+Finding things on the internet:
+- instruction: search online for the python list funcitons
+
+First program: variation on hello world; mulstiple lines
+run it by typing "python3 followed by name of the program file ie "ex1.py"
+add a line,
+Hash out all but 1 line, etc
+
+Comments/Pound Characters/Hashing out lines
+- comments are very important
+- they tell you, in egnlish, what something does
+- they can also disable parts of your program if you need them temporarily removed (ie: debugging)
+
+--- JAN 13 2025 ---
+Resuming the tutorial, picking up where I left off on page 42. 
+
+To remind myself going forward, the process is: 
+
+Open the book, to the last page. Read and reviw what you're ABOUT to do. In it's entirety. 
+
+Then, go back to the beginning of where you left off. 
+
+nano a new file (ie: ex3.py) 
+When done typing it all in, write it out/save it, and get back to main terminal area
+then, simply type in "ex3.py" which should run th python progra right here inside terminal
+
+
