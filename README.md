@@ -1,34 +1,72 @@
-# Learning Python in Public
+# Learning Python — Learn in Public
 
-I'm relearning to code. This repository documents my progress as I build the technical skills for **Clairevoyant Labs**—the innovation pillar of my business, Saint Clairevoyant.
+A minimal, terminal-first workflow for working through *Learn Python 3 the Hard Way* while documenting progress publicly.
 
-## Why Python?
-
-I taught myself HTML, CSS, and FTP at 11 years old during the Web 1.0 era. I've been comfortable in the Linux command line since learning it during the pandemic with Zed Shaw's Command Line Crash Course. Now I'm circling back to formal programming to build tools that honor the work I do: rare book dealing, archival research, and provenance documentation.
-
-## My Approach
-
-I'm using two resources with different teaching philosophies:
-
-**Learn Python 3 the Hard Way (Zed Shaw)**  
-For when I'm motivated and want active momentum. His drill-sergeant style reminds me of how I learned originally—just figuring it out by doing it. No hand-holding.
-
-**Introduction to Python Programming (OpenStax)**  
-For when I need structured thinking and want to decompress. The academic framework helps me organize what I'm learning into something professional-grade.
-
-## Current Goal
-
-My primary project is building a digital tribute to a UW Archivist whose estate I acquired. He had no children, and his collection shows someone who deeply appreciated life and preservation. I want to create something that honors his legacy—with his extended family's permission—once I know enough to do it justice.
-
-## Progress Log
-
-| Milestone | Status | Notes |
-|-----------|--------|-------|
-| Linux environment setup | ✅ | ChromeOS + Penguin container configured |
-| Git workflow | ✅ | Credential helper configured, pushing via CLI |
-| Python fundamentals | 🟡 | Working through `print()`, variables, basic I/O |
-| Archivist tribute project | ⚪ | Planning phase |
+This repository pairs a simple CLI (`learnpython`) with a structured GitHub repo so each chapter produces a durable, reviewable artifact: source code, terminal output, and notes.
 
 ---
 
-This is accountability work. I've been a solo learner since childhood, and making this public keeps me honest about follow-through.
+## What this is
+
+- Read the book **in the terminal**
+- Write and run exercises as normal Python files
+- Automatically capture terminal output
+- Commit and push each chapter as you go
+
+No web app. No dashboards. Just a repeatable loop.
+
+---
+
+## How it works (high level)
+
+1. `learnpython start`
+   - Opens a tmux workspace
+   - Left pane: chapter text
+   - Right pane: logged shell for exercises
+
+2. Work the chapter
+   - Edit files in `chapters/chXX/src/`
+   - Run them normally (`python3 exX.py`)
+
+3. `learnpython done`
+   - Finalizes logs
+   - Commits the chapter
+   - Pushes to GitHub
+   - Advances to the next chapter
+
+---
+
+## Repository layout
+
+```text
+book/                  # Source PDF
+chapters/
+  ch01/
+    src/               # Exercise files
+    session.log        # Raw terminal log
+    output.txt         # Cleaned terminal output
+  ch02/
+    ...
+tools/                 # CLI scripts
+.learnpython_state.json # Current chapter tracker
+.learnpython_chapters.json # Auto-generated chapter index
+```
+
+---
+
+## Philosophy
+
+This project is intentionally boring:
+
+- Deterministic
+- Local-first
+- Text-only
+- Version controlled
+
+The goal is not polish — it’s **proof of work**.
+
+---
+
+## Status
+
+Work in progress. Built for personal use, but structured so others can follow along.
